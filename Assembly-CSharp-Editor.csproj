@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{85af42f3-fa71-80f7-c8e8-b281843d09f8}</ProjectGuid>
+    <ProjectGuid>{550213a7-923a-f589-2730-23ced67290a7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -232,23 +232,29 @@
     <Reference Include="UnityEditor.OSXStandalone.Extensions">
         <HintPath>/Applications/Unity/Hub/Editor/2019.3.15f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Analytics.Tracker">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Purchasing">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+    <Reference Include="UnityEngine.Advertisements">
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>/Applications/Unity/Hub/Editor/2019.3.15f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -605,78 +611,78 @@
         <HintPath>/Applications/Unity/Hub/Editor/2019.3.15f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Editor">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-weaver.Editor">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
-        <HintPath>/private/var/folders/s5/dcsgp10x4ks93s1yrynl74qh0000gn/T/c6bb0af8c1add428bb81238a2f147ecf/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+        <HintPath>/Users/leesheey/GitHub/Unity/fps_demo/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{4babed9f-3f8b-58bb-a02c-0733c6140af4}</Project>
+      <Project>{c858e3a4-567d-7c64-d179-243e2aea4e19}</Project>
       <Name>Assembly-CSharp</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
